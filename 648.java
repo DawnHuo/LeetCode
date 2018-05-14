@@ -11,4 +11,22 @@ sentence = "the cattle was rattled by the battery"
 Output: "the cat was rat by the bat"
  */
 
- 
+ class Solution {
+    public String replaceWords(List<String> dict, String sentence) {
+        Set<String> rootset = new HashSet();
+        for(String root : dict) rootset.add(root);
+        
+        StringBuilder aos = new StringBuilder();
+        for(String word : sentence.split(" ")) {
+            String prefix = "";
+            for(int i = 0; i <= word.length(); i++) {
+                prefix = word.substring(0, i);
+                if(rootset.contains(prefix)) break;
+            }
+            
+            if(aos.length() > 0) aos.append(" ");
+            aos.append(prefix);
+        }
+        return aos.toString();
+    }
+}
