@@ -8,8 +8,11 @@
 5. Longest Palindromic Substring
 7. Reverse Integer
 9. Palindrome Number
+69. Sqrt(x)
 70. Climbing Stairs
 215. Kth Largest Element in an Array
 518. Coin Change 2
+540. Single Element in a Sorted Array
 648. Replace Words
 735. Asteroid Collision
+744. Find Smallest Letter Greater Than Target
