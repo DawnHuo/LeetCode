@@ -8,6 +8,9 @@
 5. Longest Palindromic Substring
 7. Reverse Integer
 9. Palindrome Number
+20. Valid Parentheses
+21. Merge Two Sorted Lists
+53. Maximum Subarray
 69. Sqrt(x)
 70. Climbing Stairs
 215. Kth Largest Element in an Array
