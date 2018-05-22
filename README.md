@@ -13,6 +13,9 @@
 53. Maximum Subarray
 69. Sqrt(x)
 70. Climbing Stairs
+101. Symmetric Tree
+104. Maximum Depth of Binary Tree
+121. Best Time to Buy and Sell Stock
 215. Kth Largest Element in an Array
 518. Coin Change 2
 540. Single Element in a Sorted Array
